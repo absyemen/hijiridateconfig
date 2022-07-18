@@ -186,3 +186,24 @@ user_data_fields = [
 # Recommended only for DocTypes which have limited documents with untranslated names
 # For example: Role, Gender, etc.
 # translated_search_doctypes = []
+
+
+
+doctype_js  = {
+  "Payment Entry": [
+    "public/js/hijiri_date.js",
+  ],
+   "Journal Entry": [
+    "public/js/hijiri_date.js",
+  ]
+  
+}
+
+
+
+doc_events = {
+	"*": {
+		# "on_submit": "erpnext.healthcare.doctype.patient_history_settings.patient_history_settings.create_medical_record",
+			},
+	}
+	
