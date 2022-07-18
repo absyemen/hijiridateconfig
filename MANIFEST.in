@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hijiridateconfig *.css
+recursive-include hijiridateconfig *.csv
+recursive-include hijiridateconfig *.html
+recursive-include hijiridateconfig *.ico
+recursive-include hijiridateconfig *.js
+recursive-include hijiridateconfig *.json
+recursive-include hijiridateconfig *.md
+recursive-include hijiridateconfig *.png
+recursive-include hijiridateconfig *.py
+recursive-include hijiridateconfig *.svg
+recursive-include hijiridateconfig *.txt
+recursive-exclude hijiridateconfig *.pyc
